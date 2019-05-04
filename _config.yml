@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -108,14 +108,14 @@ analytics:
 author:
   name             : "Amit Kanderi"
   avatar           : "/assets/images/knowme.jpeg"
-  bio              : "Pythonphile, AI, NLP, wanna be ML Engineer."
+  bio              : "Pythonphile, AI, NLP, ML Enthusiast"
   location         : "Delhi"
   email            :
   links:
     #- #label: "Email"
       #icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
-    - label: "Website"
+    - label: "Portfolio"
       icon: "fas fa-fw fa-link"
       url: "https://amitkan1995.github.io/"
     - label: "Twitter"
@@ -282,7 +282,7 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+    _posts
   - scope:
       path: ""
       type: posts
@@ -293,3 +293,10 @@ defaults:
       comments: # true
       share: true
       related: true
+    _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
