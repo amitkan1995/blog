@@ -1,6 +1,6 @@
 ---
 title: "links"
-permalinks: /links/
+permalink: /links/
 header:
     image: "assets/images/links.jpg"
 ---
