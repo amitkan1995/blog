@@ -5,4 +5,4 @@ header:
     image: "/assets/images/about.jpg"
 ---
 
-I am working as NLP, ML Intern in NEC.
+I am working as NLP, ML Intern at NEC.
